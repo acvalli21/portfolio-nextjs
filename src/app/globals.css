@@ -2,20 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "cascadia";
+  src: url("/fonts/cascadia.ttf");
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --raisin-black: #1d1b22ff;
+  --white: #ffffffff;
+  --magnolia: #e4e2e9ff;
+  --icterine: #f8f859ff;
+  --medium-slate-blue: #7359f8ff;
+  --pale-azure: #9cdcfeff;
+  --persian-rose: #fd3db5ff;
+  
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --raisin-black: #1d1b22ff;
+  --white: #ffffffff;
+  --magnolia: #e4e2e9ff;
+  --icterine: #f8f859ff;
+  --medium-slate-blue: #7359f8ff;
+  --pale-azure: #9cdcfeff;
+  --persian-rose: #fd3db5ff;
+
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--white);
+  background: var(--raisin-black);
+  font-family: "cascadia", Helvetica, sans-serif;
 }
