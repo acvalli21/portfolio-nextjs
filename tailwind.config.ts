@@ -9,8 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        raisinBlack: "var(--raisin-black)",
+        white: "var(--white)",
+        icterine: "var(--icterine)",
+        magnolia: "var(--magnolia)",
+        slateBlue: "var(--medium-slate-blue)",
+        paleAzure: "var(--pale-azure)",
+        persianRose: "var(--persian-rose)",
       },
     },
   },
